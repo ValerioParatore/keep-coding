@@ -1,0 +1,68 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 80px;
+    background-color: red;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* esempio con gap */
+
+.row {
+    display: flex;
+    border: 1px solid green;
+    margin-top: 30px;
+    /* flex-wrap: wrap; */
+    /* gap: 30px; */
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    border: 1px solid aqua;
+    margin: 30px 0;
+}
+
+/* esempio con margin */
+
+/* .row {
+    display: flex;
+    border: 1px solid green;
+    margin-top: 30px;
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    border: 1px solid aqua;
+    margin: 30px 0;
+} */
+
+
+
+
+
+
+/* esempio con padding */
+
+
+/* .row {
+    display: flex;
+    border: 1px solid green;
+    margin-top: 30px;
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    border: 1px solid aqua;
+    margin: 30px 0;
+} */
