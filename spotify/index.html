@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <div id="side">
+          <div id="side-top">
+            <img src="./img/logo-small.svg" alt="" />
+            <img src="./img/home.svg" alt="" />
+            <img src="./img/search.svg" alt="" />
+            <img src="./img/libreria.svg" alt="" />
+          </div>
+          <div id="side-bot">
+            <img src="./img/download.svg" alt="" class="down" />
+            <img src="./img/profile.svg" alt="" class="profi" />
+          </div>
+        </div>
+        <div id="main">
+          <div id="top">
+            <button class="upgrade">EFFETTUA L'UPPGRADE</button>
+          </div>
+          <div id="middle">
+            <div id="cont-span">
+              <span>IN EVIDENZA</span>
+              <span>PODCAST</span>
+              <span>CLASSIFICHE</span>
+              <span>GENERI E MOOD</span>
+              <span>NUOVE USCITE</span>
+              <span>SCOPRI</span>
+            </div>
+            <h3>Recently played</h3>
+            <div id="cont-cards">
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/metal_lifting.jpg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/aquietplace.jpeg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/cure.jpeg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/einaudi.jpeg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/mixdaily.jpeg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/player_left.jpg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/radar.jpeg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/metal_lifting.jpg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+              <div class="card">
+                <div class="cover-wrap">
+                  <img src="./img/split.jpeg" alt="" />
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h5>Heavy Metal</h5>
+                <p>Subtitle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="song-bar">
+        <div id="cont-song">
+          <img src="./img/sinister.jpeg" alt="" />
+          <div>
+            <h5>Sinister</h5>
+            <p>Brano Nome</p>
+          </div>
+          <div id="icons-col">
+            <i class="far fa-heart"></i>
+            <i class="far fa-folder"></i>
+          </div>
+        </div>
+        <div>
+          <div id="icons-row">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="far fa-play-circle"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo-alt"></i>
+          </div>
+          <div>
+            <span>0:42</span>
+            <input type="range" min="0" max="100" value="20" />
+            <span>4:12</span>
+          </div>
+        </div>
+        <div id="song-bar-right">
+          <i class="fas fa-list-ul"></i>
+          <i class="fas fa-tv"></i>
+          <i class="fas fa-volume-up"></i>
+          <input type="range" min="0" max="100" value="50" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

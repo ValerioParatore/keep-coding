@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+main form {
+    background-color: white;
+    color: brown;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
